@@ -1,0 +1,171 @@
+* {box-sizing: border-box}
+nav{
+  grid-area: n;
+  display:grid;
+  background-color:rgb(89, 202, 240);
+  grid-template-columns: repeat(5, 1fr);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  font-weight:400;
+  font-style: bold;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right:-10px;
+}
+
+nav a{
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-size: 1em;
+  color:rgb(228, 115, 162);
+  position:relative;
+  top:80px;
+  margin: 0 auto;
+  text-decoration:none; 
+
+}
+nav svg{
+  fill:#FFFFFF;
+  display:inline;
+  transform-origin: 0px 0px;
+  transform:scale(.8);
+}
+.rainbow-horizontal{
+  background: linear-gradient(to left, #6a0dad,#0000ff,#72C347,#C4D82E,#F7CE32,#ffa500, #e63570);
+  display: block;
+  float: left;
+  width: 100%;
+  height: 5px;
+  grid-area:r;
+  margin-left: -10px;
+  margin-top: -8px;
+}
+
+body {
+  background-color: rgb(89, 202, 240);
+  /* grid-template-areas:
+  "t"
+  "c"
+  ; */
+}
+
+#top{
+  fill:#FFFFFF;
+  position: absolute;
+  top:1;
+  left:0;
+  grid-area: c;
+  width: 40%;
+}
+.mySlides {display: none}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    width: "800px";
+  }
+
+.mySlides, video {
+  padding:100px;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(228, 115, 162);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+h2{
+    color:rgb(228, 115, 162);
+    position: relative;
+    left: 50px;
+    font-family: 'Lust Script';
+    font-size: 50px;
+    grid-area: t;
+    top:1;
+    left:0;
+
+}
+
+p{
+  color:rgb(228, 115, 162);
+  font-family: Roboto, sans-serif; 
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:10%;
+}
+
+img{
+  width:400px;
+}

@@ -1,0 +1,31 @@
+nav{
+    grid-area: n;
+    display:grid;
+    background-color:rgb(89, 202, 240);
+    grid-template-columns: repeat(5, 1fr);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight:400;
+    font-style: bold;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right:-10px;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 1em;
+    color:rgb(228, 115, 162);
+    position:relative;
+    top:80px;
+    margin: 0 auto;
+    text-decoration:none; 
+
+}
+nav svg{
+    fill:#FFFFFF;
+    display:inline;
+    transform-origin: 0px 0px;
+    transform:scale(.8);
+}

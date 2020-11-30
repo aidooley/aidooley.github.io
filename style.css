@@ -1,0 +1,297 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color:rgb(228, 115, 162);
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+  font-family: 'lust-script-display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 25vh 
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* NAVBAR CSS */
+
+  /* HEADER CSS */
+.header {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: white;
+}
+
+
+.welcome{
+    margin-top: 25vh;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size:4em;
+    color:white}
+
+#changingword {
+    color:rgb(228, 115, 162);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  } 
+
+/* IMAGE GALLERY CSS */
+.image-gallery {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    grid-template-areas:
+    ". a b c ."
+    ". d e f ."
+    ;
+}
+
+.box-styling {
+    height: 350px;
+    background-color: rgb(228, 115, 162);
+  }
+
+.box-wrapper{
+  height:350px;
+  border-radius: 5%;
+}
+.box1 {
+    grid-area: a;
+}
+
+.box2 {
+    grid-area: b;
+}
+
+.box3 {
+    grid-area: c;
+}
+
+.box4 {
+    grid-area: d;
+}
+
+.box5 {
+    grid-area: e;
+}
+
+.box6 {
+    grid-area: f;
+}
+
+
+/* ABOUT ME CSS*/
+.about-me {
+    height: 100vh;
+    background-color: rgb(89, 202, 240); 
+    padding: 20vh 50px 0 50px;
+    /* grid-template-columns: (2, 1fr)
+    grid-template-areas:
+        "top ."
+        "about ."
+        "text picture"
+        ". bottom"
+        ; */
+}
+
+#top{
+  fill:#FFFFFF;
+  position:absolute;
+  top:0;
+  left:0;
+  grid-area: top;
+  width: 20%;
+}
+
+.about-me h3{
+  position: absolute;
+  font-size: 60px;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.about-me img{
+  width: 30%;
+  border-radius: 8%;
+
+  clip-path: circle(50%);
+  /* grid-area: picture; */
+}
+
+.about-me p{
+  text-align: left;
+  font-size:1em;
+  line-height: 1.5rem;
+  width:50%;
+  /* grid-area: text; */
+}
+
+#bottom{
+  fill:#FFFFFF;
+  position:absolute;
+  right: 0;
+  bottom:0;
+  /* grid-area: bottom; */
+  width: 20%;
+}
+   /* footer section */
+/* 
+  .footer h3{
+    font-size: 60px;
+    display: relative;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+} */
+footer h3{
+  font-size: 60px;
+  position: absolute;
+  margin-top:-200px;
+  margin-left: 1000px;
+}
+
+  footer li {
+    display:inline;
+  }
+  footer ul {
+    max-width: 640px;
+    margin: 2em auto;
+    padding:0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  footer ul li{
+    list-style: none;
+    align-self:flex-end;
+  }
+  footer ul li a {
+    text-decoration:none;
+    color: black;
+    opacity:.6;
+    transition: .3s;
+  }
+  footer ul li a:hover {
+    text-decoration:none;
+    color:white;
+  }
+  footer svg {
+    width:20%;
+  }
+  footer p{
+    font-size: 1em;
+  }
+
+
+
+  /* MEDIA QUERY FOR SMALL SCREENS */
+ @media (max-width:1100px){
+    .image-gallery {
+      padding-bottom: 0px;
+        margin-bottom: 600px;
+        grid-template-columns: 1fr minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+        grid-template-areas:
+        ". a b ."
+        ". c d ."
+        ". e f ."
+        ;
+    }
+ }
+
+/* MEDIA QUERY FOR MOBILE */
+ @media (max-width:735px){
+     nav {
+         padding-left: 0;
+     }
+
+     .welcome{
+      margin-top: 25vh;
+      text-align: center;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+      font-size:3.5em;
+      color:white}
+  
+
+    .image-gallery {
+        padding-bottom: 200%;
+        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+        grid-template-areas:
+        ".a."
+        ".b."
+        ".c."
+        ".d."
+        ".e."
+        ".f."
+        ;
+    }
+    .about-me{
+      grid-template-columns: (1, 1fr)
+      grid-template-areas:
+          "top"
+          "about"
+          "picture"
+          "text"
+          "bottom"
+          ;
+  }
+    }
+    .about-me img{
+      width: 60%;
+      border-radius: 8%;
+      margin-bottom: 4em;
+      clip-path: circle(50%);
+      margin-left: 10%;
+    }
+
+    .about-me p{
+      text-align: left;
+      font-size:1em;
+      line-height: 1.5rem;
+      width:100%;
+      margin-top:10px;
+    }
+    #top{
+      fill:#FFFFFF;
+      position:absolute;
+      top:0;
+      left:0;
+      grid-area: t;
+      width: 70%;
+    }
+    
+    .about-me h3{
+      position: absolute;
+      font-size: 30px;
+      margin-top: -100px;
+      margin-left: 50px;
+    }
+    #bottom{
+      fill:#FFFFFF;
+      position:absolute;
+      right: 0;
+      bottom:0;
+      /* grid-area: t; */
+      width: 90%;
+      margin-bottom:-10px;
+    }
+  
+    
+ }
+
+
+
