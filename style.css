@@ -4,10 +4,6 @@
     margin: 0;
     padding: 0;
 }
-.container{
-  width: 100%;
-}
-
 body{
   background-color:  rgb(86, 209, 250);
   width:100%;
@@ -328,7 +324,6 @@ footer h3{
     .about-me h3{
       position: absolute;
       font-size: 30px;
-      font-weight: 500;
       margin-top: -100px;
     }
 
