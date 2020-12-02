@@ -94,7 +94,7 @@ nav {
     background: linear-gradient(to left, #6a0dad,#0000ff,#72C347,#C4D82E,#F7CE32,#ffa500, #e63570);
     display: block;
     float: left;
-    width: 103%
+    width: 103%;
     height: 5px;
     grid-area:r;
     margin-left: -10px;
