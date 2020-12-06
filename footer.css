@@ -1,0 +1,40 @@
+footer h3{
+    font-size: 30px;
+    position: absolute;
+    margin-top:-60px;
+    margin-left: 46%;
+    font-family:'lust-script-display', sans-serif;
+  }
+  
+ footer li {
+      display:inline;
+ }
+footer ul {
+      max-width: 640px;
+      margin: 2em auto;
+      padding:0;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+    }
+    footer ul li{
+      list-style: none;
+      align-self:flex-end;
+    }
+    footer ul li a {
+      text-decoration:none;
+      color: rgb(35, 100, 175);
+      opacity:.6;
+      transition: .3s;
+    }
+    footer ul li a:hover {
+      text-decoration:none;
+      color:white;
+    }
+    footer svg {
+      width:20%;
+    }
+    footer p{
+      font-size: 1em;
+      color: rgb(35, 100, 175);
+    }

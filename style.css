@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color:rgb(229, 97, 152);
+    color:rgb(35, 100, 175);
     margin: 0;
     padding: 0;
 }
@@ -41,10 +41,10 @@ img {
     color:white}
 
 #changingword {
-    color:rgb(229, 97, 152);
+    /* color:rgb(229, 97, 152); */
+    color:rgb(35, 100, 175)
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
   } 
 
 /* IMAGE GALLERY CSS */
@@ -64,7 +64,7 @@ img {
 
 .box-styling {
     height: 350px;
-    background-color: rgb(229, 97, 152);
+    background-color: rgb(35, 100, 175);
   }
 
 .box-wrapper{
@@ -268,7 +268,7 @@ footer h3{
      }
 
      svg{
-      font-family:'LustScript';
+      font-family:'lust-script-display', sans-serif;
      }
 
      .welcome{
