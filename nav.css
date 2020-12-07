@@ -29,4 +29,5 @@ nav svg{
     display:inline;
     transform-origin: 0px 0px;
     transform:scale(.8);
+    font-family:'lust-script-display', sans-serif;
 }
