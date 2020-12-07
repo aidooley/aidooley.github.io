@@ -39,4 +39,6 @@ footer ul {
     footer p{
       font-size: 1em;
       color: rgb(35, 100, 175);
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
     }
