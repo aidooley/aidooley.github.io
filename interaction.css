@@ -128,22 +128,3 @@ nav a:hover:before{
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* resume hover effect? */
-  
-  /* .about-me a::before{
-    position: absolute;
-  content: '';
-  bottom: 60px;
-  width: 100px;
-  height: 4px;
-  transform: translateX(-100%);
-  transition: .4s;
-  background:linear-gradient(to left, #6a0dad,#0000ff,#72C347,#C4D82E,#F7CE32,#ffa500, #e63570);
-
-  }
-
-  .about-me a :hover:before{
-    transform: translateX(0);
-    
-  } */

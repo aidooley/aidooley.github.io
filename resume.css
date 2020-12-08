@@ -42,6 +42,44 @@
     margin-left: 3em;
 }
 
+#experience{
+    margin-left: 3em;
+}
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 1em;
+    color:rgb(35, 100, 175);
+    position:relative;
+    top:80px;
+    margin: 0 auto;
+    text-decoration:none; 
+    overflow: hidden;
+    
+  }
+  
+  a{
+    height: 90px;
+  }
+  
+  nav a::before{
+    position: absolute;
+    content: '';
+    bottom: 60px;
+    width: 100px;
+    height: 4px;
+    transform: translateX(-100%);
+    transition: .4s;
+    background:linear-gradient(to left, #6a0dad,#0000ff,#72C347,#C4D82E,#F7CE32,#ffa500, #e63570);
+    /* position: absolute;
+    bottom: 2px; */
+  }
+  
+  nav a:hover:before{
+    transform: translateX(0);
+    
+  }
+}
 /* name */
 
 h1{
@@ -99,11 +137,11 @@ p{
 
 .regular{
     font-family: 'Roboto', sans-serif;
-    font-size: 24pt;
+    font-size: pt;
     font-weight:300;
     color:black;
 }
-}
+
 
 
 /* nav {

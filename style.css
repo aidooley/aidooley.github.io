@@ -262,7 +262,7 @@ footer h3{
  }
 
 /* MEDIA QUERY FOR MOBILE */
- @media (max-width:735px){
+ @media (max-width:1300px){
      nav {
          padding-left: 0;
      }
@@ -276,13 +276,15 @@ footer h3{
       text-align: center;
       font-weight: 500;
       font-family: 'Roboto', sans-serif;
-      font-size:2 em;
-      color:white}
+      font-size:1 em;
+      color:white
+
+    }
   
 
     .image-gallery {
         padding-bottom: 200px;
-        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+        grid-template-columns: 1fr minmax(350px, 1fr) 1fr;
         grid-template-areas:
         ".a."
         ".b."

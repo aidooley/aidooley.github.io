@@ -30,6 +30,7 @@ nav svg{
     transform-origin: 0px 0px;
     transform:scale(.8);
     font-family:'lust-script-display', sans-serif;
+    
 }
 @media screen and (max-width: 1300px){
 nav{
@@ -38,12 +39,13 @@ nav{
     background-color: rgb(86, 209, 250);
     grid-template-columns: repeat(5, 1fr);
     font-family: 'Roboto', sans-serif;
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight:400;
     font-style: bold;
     margin-top: -10px;
     margin-left: -10px;
     margin-right:-10px;
     width:100%;
+    text-align: center;
 }
 }
