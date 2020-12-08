@@ -38,12 +38,12 @@ nav{
     background-color: rgb(86, 209, 250);
     grid-template-columns: repeat(5, 1fr);
     font-family: 'Roboto', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight:400;
     font-style: bold;
     margin-top: -10px;
     margin-left: -10px;
     margin-right:-10px;
-    width:110%;
+    width:100%;
 }
 }
