@@ -39,7 +39,70 @@
     width:110%;
 }
 #contact{
-    
+    margin-left: 2em;
+}
+
+/* name */
+
+h1{
+    /* font-family: lust-script-display, sans-serif; */
+    font-family:'lust-script-display', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60pt;
+    color:rgb(35, 100, 175);
+}
+
+/* section headers */
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 48pt;
+    color:rgb(35, 100, 175);
+    line-height:24pt;
+}
+
+/* subheaders */
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight:300;
+    font-size: 36pt;
+    color:rgb(35, 100, 175);
+    line-height:24pt;
+}
+
+/* 3 column sub headers */
+
+h4{font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight:300;
+    font-size: 24pt;
+    color:rgb(35, 100, 175);
+    line-height:24pt;
+
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight:300;
+    /* list-style: height 25pt; */
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight:300;
+}
+
+.regular{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight:300;
+    color:black;
+}
 }
 
 
