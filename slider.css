@@ -210,6 +210,7 @@ img{
   margin-right: auto;
 }
 
+
 @media screen and (max-width: 1300px){
   img{
     width:200px;
@@ -217,7 +218,7 @@ img{
     margin-right: auto;
   }
 
-  .mySlides, video {
+  video {
     /* padding:100px; */
     width:200px;
   }
@@ -225,7 +226,7 @@ img{
   footer h3{
     font-size: 30px;
     position: absolute;
-    margin-top: -100px;
+    margin-top:-30px;
     /* margin-left: 38%; */
     text-align: center;
     font-family:'lust-script-display', sans-serif;
