@@ -217,4 +217,26 @@ img{
     margin-right: auto;
   }
 
-}
+  footer h3{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -100px;
+    /* margin-left: 38%; */
+    text-align: center;
+    font-family:'lust-script-display', sans-serif;
+    font-weight: 600;
+    color:rgb(35, 100, 175);
+  }
+
+  footer svg {
+    width:30%;
+  }
+
+  footer p{
+    font-size: 10pt;
+    color: rgb(35, 100, 175);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+   }
+   
+  }
