@@ -21,7 +21,6 @@ nav a{
     position:relative;
     top:80px;
     margin: 0 auto;
-    margin-left: 1em;
     text-decoration:none; 
 
 }
@@ -46,5 +45,6 @@ nav{
     margin-top: -10px;
     width:100%;
     text-align: center;
+    margin-left: 1em;
 }
 }

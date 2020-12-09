@@ -217,6 +217,11 @@ img{
     margin-right: auto;
   }
 
+  .mySlides, video {
+    /* padding:100px; */
+    width:200px;
+  }
+
   footer h3{
     font-size: 30px;
     position: absolute;
@@ -238,5 +243,5 @@ img{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
    }
-   
+
   }
