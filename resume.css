@@ -294,7 +294,7 @@ h1{
     font-family:'lust-script-display', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 60pt;
+    font-size: 36pt;
     color:rgb(35, 100, 175);
 }
 
@@ -303,7 +303,7 @@ h1{
 h2{
     font-family: 'Roboto', sans-serif;
     font-style: bold;
-    font-size: 48pt;
+    font-size: 24pt;
     color:rgb(35, 100, 175);
     line-height:24pt;
 }
@@ -314,7 +314,7 @@ h3{
     font-family: 'Roboto', sans-serif;
     font-size: 24pt;
     font-weight:300;
-    font-size: 36pt;
+    font-size: 24pt;
     color:rgb(35, 100, 175);
     line-height:24pt;
 }
