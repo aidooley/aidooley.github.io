@@ -29,6 +29,7 @@ footer ul {
       color: rgb(35, 100, 175);
       opacity:.6;
       transition: .3s;
+      align:center;
     }
     footer ul li a:hover {
       text-decoration:none;
