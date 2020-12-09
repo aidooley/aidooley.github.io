@@ -40,11 +40,14 @@
 }
 #contact{
     margin-left: 3em;
+    margin-top: 20px;
+    
 }
 
 #experience{
     margin-left: 3em;
 }
+
 nav a{
     font-family: 'Roboto', sans-serif;
     font-style: bold;
@@ -79,11 +82,12 @@ nav a{
     transform: translateX(0);
     
   }
+  
 }
+
 /* name */
 
 h1{
-    /* font-family: lust-script-display, sans-serif; */
     font-family:'lust-script-display', sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -218,8 +222,7 @@ p{
 }
 #contact{
     grid-area: c;
-    /* position: relative; */
-    /* width:80%; */
+    position: relative;
     margin-top: 50px;
     box-align:right;
     margin-left: -1em;
