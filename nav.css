@@ -2,7 +2,7 @@ nav{
     grid-area: n;
     display:grid;
     background-color: rgb(86, 209, 250);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     font-weight:400;
