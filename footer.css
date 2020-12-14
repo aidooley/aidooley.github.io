@@ -37,12 +37,17 @@ footer ul {
     }
     footer svg {
       width:30%;
+      box-align:center;
     }
     footer p{
       font-size: 1em;
       color: rgb(35, 100, 175);
       font-family: 'Roboto', sans-serif;
       font-weight: normal;
+    }
+
+    #bottom{
+      box-align:center;
     }
     @media screen and (max-width: 1300px){
       footer h3{
