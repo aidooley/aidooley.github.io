@@ -98,7 +98,7 @@
     position: relative;
     margin-top: 50px;
     box-align:right;
-    margin-left: -1em;
+    margin-left: -em;
 
 }
 #contact li {
@@ -163,13 +163,14 @@
 
 }
 
-/* footer h3{
+#bottom{
     font-size: 30px;
     position: absolute;
-    margin-top:-30px;
+    margin-top: 40px;
     font-weight: 600;
     text-align:center;
-  } */
+    margin-left:-20%;
+  }
 
 /* name */
 
@@ -233,6 +234,17 @@ p{
     color:black;
 }
 
+footer h3{
+    font-size: 30px;
+    position: absolute;
+    margin-top:-60px;
+    margin-left: 46%;
+    text-align: center;
+    font-family:'lust-script-display', sans-serif;
+    font-weight: 600;
+    color:rgb(35, 100, 175);
+  }
+
 @media screen and (max-width: 1300px){
     .container{
         display: grid;
@@ -288,7 +300,8 @@ nav a{
     width:100%;
 }
 #contact{
-    margin-left: 2em;
+    margin-left: 1
+    em;
     margin-top: 20px;
     
 }
