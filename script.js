@@ -1,8 +1,8 @@
 (function(){
     var words = [
         ' a designer ',
-        ' an illustrator',
-        ' a painter',
+        ' a jewelry maker',
+        ' an artist',
         
         ], i = 0;
     setInterval(function(){
